@@ -7,7 +7,7 @@ on:
     # - cron: "0 14 * * 1-5"
 
     # Opción B (cada 30 min): 07:00–13:30 UTC (08:00–14:30 CET) + ejecución a las 14:00 UTC (15:00 CET)
-    - cron: "*/15 7-13 * * 1-5"
+    - cron:  "*/5 * * * *"   #"*/15 7-13 * * 1-5"
     - cron: "0 14 * * 1-5"
 
   workflow_dispatch: {}
